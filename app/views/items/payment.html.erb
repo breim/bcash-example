@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Finalizar a compra</h1>
+
+<p>
+	Você está comprando <strong><%= @item.name %></strong> no valor de:<strong>R$ <%= @item.price %></strong> <br />
+	Clique no botão abaixo para concluir a compra no bCash!
+</p>
+
+<center>
+	<%= @payment.html { submit_tag('Pagar ! com bcash !') } %>
+</center>
