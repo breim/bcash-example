@@ -1,6 +1,8 @@
 # Bcash example for friend
 
 An simple example
+
+
 From gem called 'bcash' https://github.com/matheusca/bcash
 
 
